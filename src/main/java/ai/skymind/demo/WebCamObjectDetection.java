@@ -58,12 +58,13 @@ public class WebCamObjectDetection {
 
         grabber.start();
 
-        String winName = "Object Detection";
-        CanvasFrame canvas = new CanvasFrame(winName);
-
         int w = grabber.getImageWidth();
         int h = grabber.getImageHeight();
 
+        CanvasFrame canvas = new CanvasFrame(
+                "Object Detection",
+                CanvasFrame.getDefaultGamma() / 2.2
+        );
         canvas.setCanvasSize(w, h);
 
         ZooModel model = TinyYOLO.builder().numClasses(0).build();
