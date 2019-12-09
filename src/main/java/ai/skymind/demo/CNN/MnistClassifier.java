@@ -16,7 +16,7 @@
 
 package ai.skymind.demo.CNN;
 
-import ai.skymind.demo.DataUtilities;
+import ai.skymind.demo.utilities.DataUtilities;
 import org.datavec.api.io.labels.ParentPathLabelGenerator;
 import org.datavec.api.split.FileSplit;
 import org.datavec.image.loader.NativeImageLoader;
