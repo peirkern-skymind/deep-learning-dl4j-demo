@@ -170,7 +170,7 @@ public class MnistClassifier {
         server.attach(storage);
 
         net.setListeners(
-//                new ScoreIterationListener(1),
+                new ScoreIterationListener(1),
                 new StatsListener(storage,1)
         );
         LOGGER.info("Total num of params: {}", net.numParams());

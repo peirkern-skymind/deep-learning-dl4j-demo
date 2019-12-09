@@ -1,5 +1,6 @@
 package ai.skymind.demo;
 
+
 import org.bytedeco.javacv.CanvasFrame;
 import org.bytedeco.javacv.Frame;
 import org.bytedeco.javacv.FrameGrabber;
@@ -25,6 +26,7 @@ import java.util.List;
 
 import static org.bytedeco.opencv.global.opencv_core.flip;
 import static org.bytedeco.opencv.global.opencv_imgproc.*;
+
 
 /**
  * YOLO detection with camera
