@@ -1,4 +1,4 @@
-package ai.skymind.demo;
+package ai.skymind.demo.CNN;
 
 
 import org.bytedeco.javacv.CanvasFrame;

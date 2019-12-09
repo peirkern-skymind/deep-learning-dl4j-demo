@@ -14,8 +14,9 @@
  * SPDX-License-Identifier: Apache-2.0
  ******************************************************************************/
 
-package ai.skymind.demo;
+package ai.skymind.demo.CNN;
 
+import ai.skymind.demo.DataUtilities;
 import org.datavec.api.io.labels.ParentPathLabelGenerator;
 import org.datavec.api.split.FileSplit;
 import org.datavec.image.loader.NativeImageLoader;
